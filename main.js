@@ -19,3 +19,16 @@ function circle_area() {
 
 /*****  Your code goes below  *****/
 
+function to_fahrenheit() {
+
+let celsius = +prompt("whats the weathers degrees?")
+let fahrenheit = (celsius * 9/5) + 32 
+console.log(`${fahrenheit} Fahrenheit is equal to ${celsius} celsius`)
+
+}
+
+function roll_d10() {
+        let roll_d10 = Math.random() * 10
+        roll_d10 = Math.floor(Math.random() *10)
+        console.log(`"You rolled ${roll_d10} ! `)
+}
